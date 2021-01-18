@@ -156,7 +156,8 @@ body {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
-@media (min-width: 1024px) {
+/* changed from 1024 to 1200px */
+@media (min-width: 1200px) {
   .headliner-one__img {
   height: 100%;
   }
