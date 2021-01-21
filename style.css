@@ -148,10 +148,10 @@ body {
 .headliner__link:hover {
   color: #3573d4;
 }
-
+/* changed to correct an issue when site is 1024-1199 px wide in which the hero image overlaps the elements below it. */
 .headliner-one__img {
   width: 100%;
- /* height: 100%; */
+  /* height: 100%; */
   object-fit: cover;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
@@ -159,10 +159,10 @@ body {
 /* changed from 1024 to 1200px */
 @media (min-width: 1200px) {
   .headliner-one__img {
-  height: 100%;
+    height: 100%;
   }
 }
-
+/* end comment */
 .headliner-one__info {
   padding: 24px;
   background-color: #ffffff;
