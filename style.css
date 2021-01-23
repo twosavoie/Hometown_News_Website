@@ -123,6 +123,12 @@ body {
   padding-top: calc(3 / 5 * 100%);
   overflow: hidden;
 }
+/* removes white bar at the top of image at 950px */
+@media (min-width: 640px) {
+  .headliner__img-wrapper {
+    height: 100%;
+  }
+}
 
 .headliner__img {
   width: 100%;
